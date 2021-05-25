@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+body {
+	font-family: 'Neuton', serif;
+}
+
+/* Smaller Phone CSS Adjustment */
+@media only screen 
+  and (max-width: 320px) {
+
+	  
+
+	  body h1 {
+		font-size: 35px;
+	}
+
+	.social {
+		color: darkgray;
+	}
+
+	.social:hover {
+		color: lightblue;
+	}
+	  
+}
+
+
+
+
+
+
+/* Phone CSS Adjustment */
+@media only screen 
+  and (min-width: 320px) {
+	  
+
+}
+
+
+
+
+
+
+/* Tablet CSS Adjustment */
+@media only screen 
+  and (min-width: 768px) {
+	
+
+	body h1 {
+		font-size: 50px;
+	}
+
+}
+
+
+
+
+/* Laptop and bigger Adjustment */
+
+@media screen 
+  and (min-width: 1200px) { 
+	
+
+	body h1 {
+		font-size: 70px;
+	}
+
+}
